@@ -1,2 +1,2 @@
 # Techdegree Project 7
-A gallery app built in React to fetch and parse data.
+A gallery app built with React to fetch and parse data.

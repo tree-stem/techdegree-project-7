@@ -1,10 +1,10 @@
-import apiKey from './config';
 import Search from './components/Search';
 import Nav from './components/Nav';
 import { Navigate, Routes, Route } from 'react-router-dom';
 import PhotoList from './components/PhotoList';
 import { useEffect, useState } from 'react';
 
+const apiKey = import.meta.env.API_KEY;
 
 const App = () => {
   // Assign states to variables
